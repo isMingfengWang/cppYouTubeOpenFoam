@@ -8,10 +8,10 @@ double vectorLength(double x, double y,double z);
 int main(){
 	
 	double l;
-	double vector[3][1];
+	double vector[3][1]; // how to define a vector and the index of a vector begins from zero
 	
 	cout << "please input x: " << endl;
-	cin >> vector[0][0];
+	cin >> vector[0][0]; // how to initialize a vector
 
 	cout << "please input y: " << endl;
 	cin >> vector[1][0];
